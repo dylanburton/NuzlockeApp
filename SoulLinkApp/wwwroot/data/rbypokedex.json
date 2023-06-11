@@ -1,0 +1,1512 @@
+[
+  {
+    "pokedex_no": "001",
+    "name": "Bulbasaur",
+    "type1": "Grass",
+    "type2": "Poison"
+  },
+  {
+    "pokedex_no": "002",
+    "name": "Ivysaur",
+    "type1": "Grass",
+    "type2": "Poison"
+  },
+  {
+    "pokedex_no": "003",
+    "name": "Venasaur",
+    "type1": "Grass",
+    "type2": "Poison"
+  },
+  {
+    "pokedex_no": "004",
+    "name": "Charmander",
+    "type1": "Fire"
+  },
+  {
+    "pokedex_no": "005",
+    "name": "Charmeleon",
+    "type1": "Fire"
+  },
+  {
+    "pokedex_no": "006",
+    "name": "Charizard",
+    "type1": "Fire",
+    "type2": "Flying"
+  },
+  {
+    "pokedex_no": "007",
+    "name": "Squirtle",
+    "type1": "Water"
+  },
+  {
+    "pokedex_no": "008",
+    "name": "Wartortle",
+    "type1": "Water"
+  },
+  {
+    "pokedex_no": "009",
+    "name": "Blastoise",
+    "type1": "Water"
+  },
+  {
+    "pokedex_no": "010",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "011",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "012",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "013",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "014",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "015",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "016",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "017",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "018",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "019",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "020",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "021",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "022",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "023",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "024",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "025",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "026",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "027",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "028",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "029",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "030",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+  {
+    "pokedex_no": "031",
+    "name": "",
+    "type1": "",
+    "type2": ""
+  },
+
+
+
+
+  {
+    "pokedex_no": "032",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "033",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "034",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "035",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "036",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "037",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "038",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "039",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "040",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "041",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "042",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "043",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "044",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "045",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "046",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "047",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "048",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "049",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "050",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "051",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "052",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "053",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "054",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "055",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "056",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "057",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "058",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "059",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "060",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "061",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "062",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "063",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "064",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "065",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "066",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "067",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "068",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "069",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "070",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "071",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "072",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "073",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "074",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "075",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "076",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "077",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "078",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "079",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "080",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "081",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "082",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "083",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "084",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "085",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "086",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "087",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "088",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "089",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "090",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "091",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "092",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "093",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "094",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "095",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "096",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "097",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "098",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "099",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "100",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "101",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "102",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "103",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "104",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "105",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "106",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "107",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "108",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "109",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "110",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "111",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "112",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "113",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "114",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "115",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "116",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "117",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "118",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "119",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "120",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "121",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "122",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "123",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "124",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "125",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "126",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "127",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "128",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "129",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "130",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "131",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "132",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "133",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "134",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "135",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "136",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "137",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "138",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "139",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "140",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "141",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "142",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "143",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "144",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "145",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "146",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "147",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "148",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "149",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "150",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  },
+  {
+    "pokedex_no": "151",
+    "name": "",
+    "type1": "",
+    "type2": "",
+    "hp": "",
+    "attack": "",
+    "defense": "",
+    "special": "",
+    "speed": ""
+  }
+]

@@ -1,0 +1,82 @@
+﻿@page
+@model SoulLinkApp.Pages.Gen1PokedexModel
+@using MySql.Data.MySqlClient;
+@using System.Data;
+
+@{
+    ViewData["Title"] = "Generation 1 Pokedex";
+}
+
+@{
+    /*create datatable for storing inforlmation from server*/
+    DataTable dt = new DataTable();
+    
+
+    /*try catch if server connection issue*/
+    try
+    {
+        /*make my connection string for access to server*/
+        MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder();
+        connectionBuilder.Server = "localhost";
+        connectionBuilder.Port = 3306;
+        connectionBuilder.Database = "pokedex";
+        connectionBuilder.UserID = "dylanburton";
+        connectionBuilder.Password = "l0jbRxhP&1v-";
+
+        using MySqlConnection pokedexConnection = new MySqlConnection(connectionBuilder.ToString());
+
+
+        /*connect to the server*/
+        pokedexConnection.Open();
+        /*create query command*/
+        MySqlCommand pokedexQuery = new MySqlCommand("SELECT * FROM displaygen1", pokedexConnection);
+
+        /*place results of query into the datatable*/
+        dt.Load(pokedexQuery.ExecuteReader());
+        /*close the connection*/
+        pokedexConnection.Close();
+    } catch (Exception e)
+    {
+        Console.WriteLine(e.ToString());
+    }
+
+}
+
+<h1>Generation One Pokedex</h1>
+<p1>Displaying...</p1>
+
+<table>
+    <thead>
+        <tr>
+            <th>#      </th>
+            <th>Name   </th>
+            <th>Type 1 </th>
+            <th>Type 2 </th>
+            <th>HP     </th>
+            <th>Attack </th>
+            <th>Defense</th>
+            <th>Special</th>
+            <th>Speed  </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(DataRow row in dt.Rows)
+        {
+            <tr>
+                <td>@row["number"]</td>
+                <td>@row["name"]</td>
+                <td>@row["type1"]</td>
+                <td>@row["type2"]</td>
+                <td>@row["hp"]</td>
+                <td>@row["attack"]</td>
+                <td>@row["defense"]</td>
+                <td>@row["special"]</td>
+                <td>@row["speed"]</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
