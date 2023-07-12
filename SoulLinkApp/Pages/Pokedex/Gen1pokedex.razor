@@ -1,0 +1,35 @@
+﻿@using SoulLinkApp.Models
+@using DataLibrary
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+
+
+<h1>Displaying Generation 1 Pokedex</h1>
+
+@if (pokemon == null)
+{
+    <p><em>Loading...</em></p>
+
+}
+else
+{
+    <p>displaying the names of your dex! :)</p>
+    @foreach (var p in pokemon)
+    {
+        <p>p.Name</p>
+    }
+}
+
+
+
+
+@code {
+    List<Gen1Pokemon> pokemon;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "select * from displaygen1";
+        pokemon = await _data.LoadData<Gen1Pokemon, dynamic>(sql, new { }, _config.GetConnectionString("gen1connection"));
+    }
+}

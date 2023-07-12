@@ -1,10 +1,14 @@
-﻿@page
-@model SoulLinkApp.Pages.Gen1PokedexModel
+﻿@page "/Gen1Pokedex"
+@model SoulLinkApp.Pages.Gen1PokedexModel;
 @using MySql.Data.MySqlClient;
 @using System.Data;
 
+
+<h1>Generation One Pokedex</h1>
+
 @{
-    ViewData["Title"] = "Generation 1 Pokedex";
+    ViewData["Title"] = "Gen1Pokedex";
+
 }
 
 @{
@@ -42,7 +46,7 @@
 
 }
 
-<h1>Generation One Pokedex</h1>
+
 <p1>Displaying...</p1>
 
 <table>
@@ -52,11 +56,11 @@
             <th>Name   </th>
             <th>Type 1 </th>
             <th>Type 2 </th>
-            <th>HP     </th>
-            <th>Attack </th>
-            <th>Defense</th>
-            <th>Special</th>
-            <th>Speed  </th>
+            <th style="color:limegreen">    HP    </th>
+            <th style="color:red">     Attack</th>
+            <th style="color:blue">     Defense</th>
+            <th style="color:indigo">    Special</th>
+            <th style="color:darkgoldenrod">    Speed</th>
         </tr>
     </thead>
     <tbody>
@@ -67,11 +71,11 @@
                 <td>@row["name"]</td>
                 <td>@row["type1"]</td>
                 <td>@row["type2"]</td>
-                <td>@row["hp"]</td>
-                <td>@row["attack"]</td>
-                <td>@row["defense"]</td>
-                <td>@row["special"]</td>
-                <td>@row["speed"]</td>
+                <td style="color:limegreen">    @row["hp"]</td>
+                <td style="color:red">    @row["attack"]</td>
+                <td style="color:blue">   @row["defense"]</td>
+                <td style="color:indigo">   @row["special"]</td>
+                <td style="color:darkgoldenrod">    @row["speed"]</td>
 
             </tr>
         }

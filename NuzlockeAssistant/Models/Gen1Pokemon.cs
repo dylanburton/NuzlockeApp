@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SoulLinkApp.Models
+namespace NuzlockeAssistant.Models
 {
     public class Gen1Pokemon
     {
@@ -15,6 +15,5 @@ namespace SoulLinkApp.Models
         public int Defense { get; set; }
         public int Special { get; set; }
         public int Speed { get; set; }
-
     }
 }

@@ -1,16 +1,15 @@
-using SoulLinkApp;
-using System.Xml.Serialization;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
+using NuzlockeAssistant.Data;
 using DataLibrary;
-
 var builder = WebApplication.CreateBuilder(args);
+
 // Add services to the container.
-
-builder.Services.AddSingleton<IDataAccess, DataAccess>();
 builder.Services.AddRazorPages();
-//needs to be called to close the builder, insertion needs to be done above.
+builder.Services.AddServerSideBlazor();
+builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<IDataAccess, DataAccess>();
 var app = builder.Build();
-
-
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -21,14 +20,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
-app.MapRazorPages();
-
-
+app.MapBlazorHub();
+app.MapFallbackToPage("/_Host");
 
 app.Run();

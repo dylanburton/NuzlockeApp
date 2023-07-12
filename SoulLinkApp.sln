@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoulLinkApp", "SoulLinkApp\SoulLinkApp.csproj", "{F5B25D33-3182-4BE1-B85B-8C90EEDF36DC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{919E7D56-5236-4D46-BC6B-C7D4539F851D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuzlockeAssistant", "NuzlockeAssistant\NuzlockeAssistant.csproj", "{64747F02-D0FB-427E-A6A8-C4402C942516}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F5B25D33-3182-4BE1-B85B-8C90EEDF36DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B25D33-3182-4BE1-B85B-8C90EEDF36DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B25D33-3182-4BE1-B85B-8C90EEDF36DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{919E7D56-5236-4D46-BC6B-C7D4539F851D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{919E7D56-5236-4D46-BC6B-C7D4539F851D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{919E7D56-5236-4D46-BC6B-C7D4539F851D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{919E7D56-5236-4D46-BC6B-C7D4539F851D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64747F02-D0FB-427E-A6A8-C4402C942516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64747F02-D0FB-427E-A6A8-C4402C942516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64747F02-D0FB-427E-A6A8-C4402C942516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64747F02-D0FB-427E-A6A8-C4402C942516}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
