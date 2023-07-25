@@ -1,9 +1,13 @@
-﻿@using NuzlockeAssistant.Models
+﻿@page "/displaygen1" 
+
+@using NuzlockeAssistant.Models
 @using DataLibrary
+
 @inject IDataAccess _data
 @inject IConfiguration _config
+@namespace displaygen1
 
-
+<PageTitle>Gen 1 pokedex</PageTitle>
 
 <h1>Displaying Generation 1 Pokedex</h1>
 
@@ -14,11 +18,40 @@
 }
 else
 {
-    <p>displaying the names of your dex! :)</p>
-    @foreach (var p in pokemon)
-    {
-        <p>p.Name</p>
-    }
+
+    <table>
+        <thead>
+            <tr>
+                <th>#      </th>
+                <th>Name   </th>
+                <th>Type 1 </th>
+                <th>Type 2 </th>
+                <th style="color:limegreen">    HP    </th>
+                <th style="color:red">     Attack</th>
+                <th style="color:blue">     Defense</th>
+                <th style="color:indigo">    Special</th>
+                <th style="color:darkgoldenrod">    Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var p in pokemon)
+            {
+                <tr>
+                    <td>@p.Number</td>
+                    <td>@p.Name</td>
+                    <td>@p.Type1</td>
+                    <td>@p.Type2</td>
+                    <td style="color:limegreen">    @p.HP</td>
+                    <td style="color:red">    @p.Attack</td>
+                    <td style="color:blue">   @p.Defense</td>
+                    <td style="color:indigo">   @p.Special</td>
+                    <td style="color:darkgoldenrod">    @p.Speed</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
 }
 
 

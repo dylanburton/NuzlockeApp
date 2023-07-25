@@ -4,7 +4,6 @@ using DataLibrary;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
-
 builder.Services.AddSingleton<IDataAccess, DataAccess>();
 builder.Services.AddRazorPages();
 //needs to be called to close the builder, insertion needs to be done above.

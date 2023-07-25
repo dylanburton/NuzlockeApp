@@ -1,86 +1,15 @@
 ﻿@page "/Gen1Pokedex"
-@model SoulLinkApp.Pages.Gen1PokedexModel;
-@using MySql.Data.MySqlClient;
-@using System.Data;
+@namespace Gen1Pokedex
+@using displaygen1
+@using System.Data
 
-
-<h1>Generation One Pokedex</h1>
+<h3>Generation 1 Pokedex</h3>
 
 @{
     ViewData["Title"] = "Gen1Pokedex";
-
 }
 
-@{
-    /*create datatable for storing inforlmation from server*/
-    DataTable dt = new DataTable();
-    
-
-    /*try catch if server connection issue*/
-    try
-    {
-        /*make my connection string for access to server*/
-        MySqlConnectionStringBuilder connectionBuilder = new MySqlConnectionStringBuilder();
-        connectionBuilder.Server = "localhost";
-        connectionBuilder.Port = 3306;
-        connectionBuilder.Database = "pokedex";
-        connectionBuilder.UserID = "dylanburton";
-        connectionBuilder.Password = "l0jbRxhP&1v-";
-
-        using MySqlConnection pokedexConnection = new MySqlConnection(connectionBuilder.ToString());
-
-
-        /*connect to the server*/
-        pokedexConnection.Open();
-        /*create query command*/
-        MySqlCommand pokedexQuery = new MySqlCommand("SELECT * FROM displaygen1", pokedexConnection);
-
-        /*place results of query into the datatable*/
-        dt.Load(pokedexQuery.ExecuteReader());
-        /*close the connection*/
-        pokedexConnection.Close();
-    } catch (Exception e)
-    {
-        Console.WriteLine(e.ToString());
-    }
-
-}
-
-
-<p1>Displaying...</p1>
-
-<table>
-    <thead>
-        <tr>
-            <th>#      </th>
-            <th>Name   </th>
-            <th>Type 1 </th>
-            <th>Type 2 </th>
-            <th style="color:limegreen">    HP    </th>
-            <th style="color:red">     Attack</th>
-            <th style="color:blue">     Defense</th>
-            <th style="color:indigo">    Special</th>
-            <th style="color:darkgoldenrod">    Speed</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(DataRow row in dt.Rows)
-        {
-            <tr>
-                <td>@row["number"]</td>
-                <td>@row["name"]</td>
-                <td>@row["type1"]</td>
-                <td>@row["type2"]</td>
-                <td style="color:limegreen">    @row["hp"]</td>
-                <td style="color:red">    @row["attack"]</td>
-                <td style="color:blue">   @row["defense"]</td>
-                <td style="color:indigo">   @row["special"]</td>
-                <td style="color:darkgoldenrod">    @row["speed"]</td>
-
-            </tr>
-        }
-    </tbody>
-</table>
+<component type="typeof(DisplayGen1)" render-mode="ServerPrerendered"/>
 
 
 

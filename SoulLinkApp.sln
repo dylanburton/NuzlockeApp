@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoulLinkApp", "SoulLinkApp\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLibrary", "DataLibrary\DataLibrary.csproj", "{919E7D56-5236-4D46-BC6B-C7D4539F851D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuzlockeAssistant", "NuzlockeAssistant\NuzlockeAssistant.csproj", "{64747F02-D0FB-427E-A6A8-C4402C942516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NuzlockeAssistant", "NuzlockeAssistant\NuzlockeAssistant.csproj", "{64747F02-D0FB-427E-A6A8-C4402C942516}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
