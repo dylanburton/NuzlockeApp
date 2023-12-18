@@ -1,0 +1,65 @@
+﻿@page "/newtrainer"
+@page "/createnuzlocke"
+
+@using NuzlockeAssistant.Models;
+@using DataLibrary;
+
+@inject IDataAccess _data;
+@inject IConfiguration _config;
+@inject IJSRuntime JSRuntime;
+
+
+
+<h3>Create A New Nuzlocke</h3>
+<table>
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" placeholder="What is your name?" id="number" class="form-control" @bind="runName" />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button type="submit" class="btn btn-primary" @onclick="CreateANuzlocke">Start New Journey</button>
+        </td>
+    </tr>
+</table>
+@if (longerThanTen)
+{
+    <font color="red">The name has to be less than 11 characters</font>
+}
+
+
+@code {
+    string runName;
+    string teamsConnectionString = "teamsConnection";
+    bool longerThanTen = false;
+    /**
+     * 
+     */
+    private async Task CreateANuzlocke()
+    {
+        if(runName.Length > 10)
+        {
+            longerThanTen = true;
+        }
+        Console.WriteLine("creating a nuzlocke maybe");
+        if (!string.IsNullOrEmpty(runName) && !(runName.Contains(";")) && runName.Length < 11){
+            try{
+                Console.WriteLine("No For sure we making something");
+                longerThanTen = false;
+                string sql = "Insert into trainer(name, generation, alive) values (@newName, 1, 1);";
+                await _data.SaveData(sql, new { newName = runName }, _config.GetConnectionString(teamsConnectionString));
+                await JSRuntime.InvokeVoidAsync("location.reload");
+            } catch(Exception ex)
+            {
+                Console.WriteLine("Actually it is not doing it, here is why: " + ex.Message);
+            }
+            runName = string.Empty;
+        }
+    }
+}
+
+<RunSelection></RunSelection>

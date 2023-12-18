@@ -1,0 +1,55 @@
+﻿@page "/runselection"
+@page "/run"
+@page "/journeyselection"
+@page "/journey"
+
+@using NuzlockeAssistant.Models
+@using DataLibrary
+
+@inject IDataAccess _data
+@inject IConfiguration _config
+
+<h3>Journey Selection</h3>
+
+
+@if( trainers == null || trainers.Count == 0)
+{
+    <p><em>No one</em> has started their Journey...</p>
+    <p>To start a new journey</p>
+
+}
+else
+{
+    <p>Trainers</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Trainer Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in trainers)
+            {
+                <tr>
+                    <td>@t.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+@code {
+    /*list of trainers*/
+    List<Trainer> trainers;
+    protected override async Task OnInitializedAsync()
+    {
+        try{
+            string sql = "select * from trainer order by name;";
+            trainers = await _data.LoadData<Trainer, dynamic>(sql, new { }, _config.GetConnectionString("teamsConnection"));
+        } catch(Exception e)
+        {
+            Console.WriteLine("Your problem here: " + e.Message);
+        }
+        Console.WriteLine("We asynced");
+    }
+}

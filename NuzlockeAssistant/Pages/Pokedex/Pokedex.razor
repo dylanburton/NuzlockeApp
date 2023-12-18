@@ -1,15 +1,16 @@
-﻿@page "/displaygen1" 
+﻿@page "/pokedex" 
+@page "/displaygen1"
 
 @using NuzlockeAssistant.Models
 @using DataLibrary
 
 @inject IDataAccess _data
 @inject IConfiguration _config
-@namespace displaygen1
+@namespace pokedex
 
-<PageTitle>Gen 1 pokedex</PageTitle>
+<PageTitle>Pokedex</PageTitle>
 
-<h1>Displaying Generation 1 Pokedex</h1>
+<h1>Generation 1 Pokedex</h1>
 
 @if (pokemon == null)
 {
@@ -19,18 +20,18 @@
 else
 {
 
-    <table>
+    <table class="table">
         <thead>
             <tr>
-                <th>#      </th>
-                <th>Name   </th>
-                <th>Type 1 </th>
-                <th>Type 2 </th>
-                <th style="color:limegreen">    HP    </th>
-                <th style="color:red">     Attack</th>
-                <th style="color:blue">     Defense</th>
-                <th style="color:indigo">    Special</th>
-                <th style="color:darkgoldenrod">    Speed</th>
+                <th>#</th>
+                <th>Name</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+                <th style="color:limegreen">HP</th>
+                <th style="color:red">Attack</th>
+                <th style="color:blue">Defense</th>
+                <th style="color:indigo">Special</th>
+                <th style="color:darkgoldenrod">Speed</th>
             </tr>
         </thead>
         <tbody>
@@ -58,11 +59,13 @@ else
 
 
 @code {
-    List<Gen1Pokemon> pokemon;
+    
+    List<Pokemon> pokemon;
+
 
     protected override async Task OnInitializedAsync()
     {
         string sql = "select * from displaygen1";
-        pokemon = await _data.LoadData<Gen1Pokemon, dynamic>(sql, new { }, _config.GetConnectionString("gen1connection"));
+        pokemon = await _data.LoadData<Pokemon, dynamic>(sql, new { }, _config.GetConnectionString("gen1connection"));
     }
 }
