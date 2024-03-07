@@ -1,5 +1,6 @@
 ﻿@page "/newtrainer"
 @page "/createnuzlocke"
+@page "/createjourney"
 
 @using NuzlockeAssistant.Models;
 @using DataLibrary;
@@ -9,27 +10,56 @@
 @inject IJSRuntime JSRuntime;
 
 
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Journey</title>
 
-<h3>Create A New Nuzlocke</h3>
-<table>
-    <tr>
-        <td>
-            <div class="form-group">
-                <label for="name"></label>
-                <input type="text" placeholder="What is your name?" id="number" class="form-control" @bind="runName" />
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <button type="submit" class="btn btn-primary" @onclick="CreateANuzlocke">Start New Journey</button>
-        </td>
-    </tr>
-</table>
-@if (longerThanTen)
-{
-    <font color="red">The name has to be less than 11 characters</font>
-}
+</head>
+<body>
+    <style>
+        body{
+            background-color: transparent;
+        }
+        .input-container {
+            width: 400px;
+            max-width: 100%;
+            position: relative;
+        }
+        
+        .input-container input {
+            background: rgba(255,255,255,0);
+            border: 2px solid White;
+            border-radius: 50px;
+            padding: 1rem 2rem;
+            width: 100%;
+        }
+
+        .input-container button {
+            background-color:darkturquoise;
+            
+            border-radius: 50%;
+            height: 60%;
+            aspect-ratio: 1;
+
+            position: absolute;
+            right: 2%;
+            top: 35%;
+
+        }
+    </style>
+
+    <h1>Start a Journey?</h1>
+    <div class="input-container">
+        <label for="name"></label>
+        <input type="text" placeholder="What is your name for this journey?" class="form-control" @bind="runName" />
+        <button type="submit" @onclick="CreateANuzlocke">Start</button>
+    </div>
+    @if (longerThanTen)
+    {
+        <font color="red">The name has to be less than 11 characters</font>
+    }
+</body>
 
 
 @code {
@@ -45,7 +75,7 @@
         {
             longerThanTen = true;
         }
-        Console.WriteLine("creating a nuzlocke maybe");
+        Console.WriteLine("creating a nuzlocke");
         if (!string.IsNullOrEmpty(runName) && !(runName.Contains(";")) && runName.Length < 11){
             try{
                 Console.WriteLine("No For sure we making something");
@@ -55,7 +85,7 @@
                 await JSRuntime.InvokeVoidAsync("location.reload");
             } catch(Exception ex)
             {
-                Console.WriteLine("Actually it is not doing it, here is why: " + ex.Message);
+                Console.WriteLine("Actually not making nuzlocke, here is why: " + ex.Message);
             }
             runName = string.Empty;
         }

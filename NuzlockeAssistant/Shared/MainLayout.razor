@@ -1,6 +1,14 @@
 ﻿@inherits LayoutComponentBase
 
-<PageTitle>NuzlockeAssistant</PageTitle>
+<PageTitle>Journey Assistant</PageTitle>
+
+<style>
+    #grad1 {
+        height: 100%;
+        background-color: deepskyblue;
+        background-image: linear-gradient(to bottom right, deepskyblue, magenta);
+    }
+</style>
 
 <div class="page">
     <div class="sidebar">
@@ -8,11 +16,8 @@
     </div>
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
+        <article class="content px-4" id="grad1">
 
-        <article class="content px-4">
             @Body
         </article>
     </main>

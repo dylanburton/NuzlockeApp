@@ -20,8 +20,7 @@
 }
 else
 {
-    <p>Trainers</p>
-    <table class="table">
+    <table class="table" width="20">
         <thead>
             <tr>
                 <th>Trainer Name</th>
@@ -48,7 +47,7 @@ else
             trainers = await _data.LoadData<Trainer, dynamic>(sql, new { }, _config.GetConnectionString("teamsConnection"));
         } catch(Exception e)
         {
-            Console.WriteLine("Your problem here: " + e.Message);
+            Console.WriteLine("Your exception is here: " + e.Message);
         }
         Console.WriteLine("We asynced");
     }
