@@ -1,7 +1,5 @@
 ﻿@page "/runselection"
-@page "/run"
 @page "/journeyselection"
-@page "/journey"
 
 @using NuzlockeAssistant.Models
 @using DataLibrary
@@ -9,46 +7,94 @@
 @inject IDataAccess _data
 @inject IConfiguration _config
 
-<h3>Journey Selection</h3>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Journey</title>
+
+    <style>
+        button {    
+            border-radius: 50%;
+        }
+        body{
+            background-color: transparent;
+        }
+    </style>
 
 
-@if( trainers == null || trainers.Count == 0)
-{
-    <p><em>No one</em> has started their Journey...</p>
-    <p>To start a new journey</p>
+</head>
+<body>
+    <h3>Journey Selection</h3>
+    
 
-}
-else
-{
-    <table class="table" width="20">
-        <thead>
-            <tr>
-                <th>Trainer Name</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var t in trainers)
-            {
+    @if( trainers == null || trainers.Count == 0)
+    {
+        <p><em>No one</em> has started their Journey...</p>
+        <p>To start a new journey</p>
+
+    }
+    else
+    {
+        <table class="table" width="20">
+            <thead>
                 <tr>
-                    <td>@t.Name</td>
+                    <th>Trainer Name</th>
+                    <th>Delete Trainer</th>
                 </tr>
-            }
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                @foreach (var t in trainers)
+                {
+                    <tr>
+                        <td>@t.Name</td>
+                        <button @onclick="() => DeleteTrainer(t)">Drop</button>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 
-}
+</body>
+
+
 @code {
     /*list of trainers*/
     List<Trainer> trainers;
+
+
     protected override async Task OnInitializedAsync()
     {
-        try{
+        await LoadTrainers();
+    }
+
+    private async Task LoadTrainers()
+    {
+        try
+        {
             string sql = "select * from trainer order by name;";
             trainers = await _data.LoadData<Trainer, dynamic>(sql, new { }, _config.GetConnectionString("teamsConnection"));
-        } catch(Exception e)
+        }
+        catch (Exception e)
         {
             Console.WriteLine("Your exception is here: " + e.Message);
         }
         Console.WriteLine("We asynced");
+    }
+
+
+    private async Task DeleteTrainer(Trainer trainer)
+    {
+        try
+        {
+            string sql = "Delete from trainer where ID = @Id;";
+            await _data.SaveData(sql, new { trainer.ID }, _config.GetConnectionString("teamsConnection"));
+
+            await LoadTrainers();
+        } 
+        catch (Exception ex)
+        {
+            Console.WriteLine("Failed to delete trainer due to: " + ex.Message);
+        }
     }
 }

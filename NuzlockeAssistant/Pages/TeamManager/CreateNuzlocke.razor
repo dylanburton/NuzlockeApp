@@ -49,7 +49,7 @@
         }
     </style>
 
-    <h1>Start a Journey?</h1>
+    <h3>Start a Journey?</h3>
     <div class="input-container">
         <label for="name"></label>
         <input type="text" placeholder="What is your name for this journey?" class="form-control" @bind="runName" />
@@ -63,7 +63,7 @@
 
 
 @code {
-    string runName;
+    string runName = "";
     string teamsConnectionString = "teamsConnection";
     bool longerThanTen = false;
     /**
@@ -74,11 +74,11 @@
         if(runName.Length > 10)
         {
             longerThanTen = true;
+            Console.WriteLine("Name for nuzolocke too long");
         }
         Console.WriteLine("creating a nuzlocke");
         if (!string.IsNullOrEmpty(runName) && !(runName.Contains(";")) && runName.Length < 11){
             try{
-                Console.WriteLine("No For sure we making something");
                 longerThanTen = false;
                 string sql = "Insert into trainer(name, generation, alive) values (@newName, 1, 1);";
                 await _data.SaveData(sql, new { newName = runName }, _config.GetConnectionString(teamsConnectionString));
