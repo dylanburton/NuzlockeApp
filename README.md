@@ -1,5 +1,5 @@
-App is used for helping keep track of pokemon for nuzlocking within the pokemon game red and blue.
+The app currently is being placed together. 
+App is for keeping track of pokemon for nuzlocking within the game red and blue.
 It is capable of creating playthroughs to help track the game, and if the game has been randomized,
 it will display what moves each pokemon will likely know.
-It is more specifically going to be handy for playing through the soul link version, but is also 
-good for regular playthrough's.
+It is mostly for soul link nuzlockes, although it will be useful for regular playthroughs.
