@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
+
+namespace NuzlockeAssistant.Models
+{
+    public class Team
+    {
+        [Key]
+        public int ID { get; set; }
+        public int Pokemon_Number { get; set; }
+        public string Pokemon_Nickname { get; set; }
+        public int EncounterRoute { get; set; }
+        public DateTime Encounter_Time { get; set; } = DateTime.Now;
+        public int Status { get; set; }
+    }
+}
