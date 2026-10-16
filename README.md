@@ -5,4 +5,4 @@ it will display what moves each pokemon will likely know.
 It is mostly for soul link nuzlockes as it is mostly to help visuallizing building teams, although it will be useful for regular playthroughs.
 
 Here is the database schema I designed that connects all the information from trainers to teams.
-<iframe width="560" height="315" src='https://dbdiagram.io/e/6895b631dd90d178650ee659/6ad1dbab2fc3f222d04c720b'> </iframe>
+https://dbdiagram.io/d/Nuzlocke-Assistant-6895b631dd90d178650ee659
